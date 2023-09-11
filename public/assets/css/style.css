@@ -134,3 +134,23 @@
     margin-top: -3%;
     margin-left: 35%;
 }
+
+
+/* RODAPÉ */
+.rodape{
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    background-color: #FF0000;
+}
+.rodape span, a{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration:none;
+}
+
+.endereco{
+    color: #FFFFFF;
+}
