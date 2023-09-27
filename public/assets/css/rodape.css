@@ -1,0 +1,16 @@
+/* RODAPÉ */
+.rodape{
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    background-color: #FF0000;
+    font-size: 1rem;
+}
+.rodape span, a{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-decoration:none;
+}
+

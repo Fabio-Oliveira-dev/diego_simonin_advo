@@ -4,88 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adv Diego Simonin</title>
-
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <link rel="stylesheet" href="./public/assets/css/reset.css">
-
+    <title>Adv Diego Simonin - Escritório</title>
+    
     <link rel="icon" href="./public/assets/img/balanca.jpg" type="image/png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;500;700;800&display=swap">
+
+    <link rel="stylesheet" href="./public/assets/css/global.css">
+    <link rel="stylesheet" href="./public/assets/css/redes.css">
+    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <link rel="stylesheet" href="./public/assets/css/acordeon.css">
+    <link rel="stylesheet" href="./public/assets/css/rodape.css">
+
 </head>
 <body>
-    <!-- REDES SOCIAIS -->
-    <section class="caixa-redes">
-        <header class="redes">
-            <a id="instagram" href="https://www.instagram.com/diegosimonin/"><img src="./public/assets/img/instagram.png" alt="instagram"></a>
-            
-            <a id="facebook" href="https://www.facebook.com/diego.simonin"><img src="./public/assets/img/facebook.png" alt="facebook"></a>
+    <main class="main">
+        <!-- REDES SOCIAIS -->
+        <header class="caixa-redes">
+            <section class="redes">
+                <a href="https://www.instagram.com/diegosimonin/" target="_blank"><img src="./public/assets/img/instagram.png" alt="Instagram"></a>
+                
+                <a href="https://www.facebook.com/diego.simonin" target="_blank"><img src="./public/assets/img/facebook.png" alt="Facebook"></a>
 
-            <div id="zap">
-                <img id="itemimg" src="./public/assets/img/whatsapp.png" alt="whatsapp">
-            </div>
-
-            <span id="itemcel">21 97641-2833</span>
-
-            <div id="email">
-                <img src="./public/assets/img/email.png" alt="email">
-                <span>diegosimonin@gmail.com</span>
-            </div>
+                <a href="tel:21 976412833"><img src="./public/assets/img/whatsapp.png" alt="Whatsapp"></a>
+                
+                <a href="mailto:diegosimonin@gmail.com"><img src="./public/assets/img/email.png" alt="E-mail"></a>
+            </section>
         </header>
-    </section>
 
-    <!-- MENU -->
-    <header class="menu">
-        <div class="logo">
-            <h1 id="item1">Diego Simonin</h1>
-            <h2 id="item2">Escritório de Advocacia</h2>
-        </div>
-        
-        <nav class="navegacao">
-            <ul>
-                <a href="#"><li>Início</li></a>
-                <a href="#"><li>Sobre</li></a>
-                <a href="#"><li>Especialidades</li></a>
-                <a href="#"><li>Contatos</li></a>
-            </ul>
-        </nav>
-    </header>
+        <!-- MENU -->
+        <header class="menu">
+            <div class="logo">
+                <h1>Diego <br>Simonin</h1>
+                <h2>Escritório de Advocacia</h2>
+            </div>
+            
+            <nav class="navegacao">
+                <ul class="lista">
+                    <a href="#"><li>Início</li></a>
+                    <a href="#"><li>Sobre</li></a>
+                    <a href="#"><li>Especialidades</li></a>
+                    <a href="#"><li>Contatos</li></a>
+                </ul>
+            </nav>
+        </header>
     
-    <!-- CAIXA PILARES DO DIREITO -->
-    <section class="pilares">
         
-        <article class="caixa">
-            <img id="pilar-img" src="./public/assets/img/pilar.png" alt="pilar">
-            <h3>Igualdade</h3>
-            <p>É um princípio fundamental que sugere que todas as pessoas devem ser tratadas com igualdade perante a lei</p>
-        </article>
+        <!-- PILARES DO DIREITO ACORDEON-->
+        <span class="sobre-caixa">
+            <p class="p1">"Experiência - Respeito - Resultados"</p>
+            <p class="p2">Advocacia especializada no direito do consumidor</p>
+            <p class="p3">Na Defesa dos interesses dos nossos clientes</p>
+            <p class="p4">Pilares Morais do direito que respeitamos"</p>
+        </span>
+        
+        <button class="botao">
+            <details class="pilares">
+                <summary class="titulo">Igualdade</summary>
+                <img src="./public/assets/img/pilar.png" alt="Pilar">
+                <p>É um princípio fundamental que sugere que todas as pessoas devem ser tratadas com igualdade perante a lei</p>
+            </details>
+        </button>
 
-        <article class="caixa">
-            <img id="pilar-img" src="./public/assets/img/pilar.png" alt="pilar">
-            <h3>Integridade</h3>
-            <p>É um valor importante na prática jurídica. Nós Advogados profissionais do direito devemos agir com honestidade, transparência e ética com nossos clientes</p>
-        </article>
+        <button class="botao open">
+            <details class="pilares">
+                <summary class="titulo">Integridade</summary>
+                <img src="./public/assets/img/pilar.png" alt="pilar">
+                <p>É um valor importante na prática jurídica. Nós Advogados profissionais do direito devemos agir com honestidade, transparência e ética com nossos clientes</p>
+            </details>
+        </button>
 
-        <article class="caixa">
-            <img id="pilar-img" src="./public/assets/img/pilar.png" alt="pilar">
-            <h3>Prudência</h3>
-            <p>Refere-se à tomada de decisões informadas e cuidadosas, considerando todas as implicações e consequências</p>
-        </article>
+        <button class="botao open">
+            <details class="pilares">
+                <summary class="titulo">Prudência</summary>
+                <img src="./public/assets/img/pilar.png" alt="pilar">
+                <p>Refere-se à tomada de decisões informadas e cuidadosas, considerando todas as implicações e consequências</p>
+            </details>
+        </button>
+        
+        <button class="botao open">
+            <details class="pilares">
+                <summary class="titulo">Ética Profissional</summary>
+                <img src="./public/assets/img/pilar.png" alt="pilar">
+                <p>Profissionais do direito devem aderir a códigos de ética específicos que regem sua conduta profissional. Isso inclui obrigações de confidencialidade, lealdade ao cliente e comportamento ético em todas as interações profissionais</p>
+            </details>
+        </button>
 
-        <article class="caixa">
-            <img id="pilar-img" src="./public/assets/img/pilar.png" alt="pilar">
-            <h3>Ética profissional</h3>
-            <p>Profissionais do direito devem aderir a códigos de ética específicos que regem sua conduta profissional. Isso inclui obrigações de confidencialidade, lealdade ao cliente e comportamento ético em todas as interações profissionais</p>
-        </article>
-    </section>
 
-    <div id="pilares-morais">Nossos Pilares Morais</div>
+        <!-- RODAPÉ -->
+        <footer class="rodape">
+            <section class="endereco">
+                <div>Endereço - Rua Sergio Sender, nº 15 Loja - Jd Nova Era - Nova Iguaçu - RJ</div>
+            </section>
+            
+            <span>2023 - Desenvolvido por <a href="https://www.linkedin.com/in/devfabiooliveira/"> Fábio Oliveira</a></span>
 
-    <!-- RODAPÉ -->
-    <footer class="rodape">
-        <span>2023 - Desenvolvido por<a href="https://www.linkedin.com/in/devfabiooliveira/">Fábio Oliveira</a></span>
-
-        <section class="endereco">
-            <div>Rua - Sergio Sender, nº 15 Loja</div>
-        </section>
-    </footer>
+        </footer>
+    </main>
+    
+    <script src="./public/assets/js/acordeon.js"></script>
 </body>
 </html>

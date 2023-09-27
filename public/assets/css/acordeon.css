@@ -1,0 +1,147 @@
+/* CAIXA PILARES DO DIREITO */
+/* .acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    transition: .25s;
+    color: #ffffff;
+}
+
+.acordeon.open,
+.acordeon:hover{
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.acordeon .botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+.acordeon .botao h2{
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.acordeon .botao:hover{
+    cursor: pointer;
+
+}.acordeon .botao::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/arrow-top.svg');
+    transition: .25s;
+}
+
+.acordeon.open .botao::after{
+    transform: rotate(180deg);
+}
+
+.acordeon .content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.acordeon.open .content{
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
+} */
+
+
+.sobre-caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.sobre-caixa p{
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600; 
+}
+
+.sobre-caixa .p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.sobre-caixa .p2 .p3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-caixa .p2{
+    background-color: #0bb819;
+}
+
+.sobre-caixa .p3{
+    background-color: #B8860B;
+}
+
+.sobre-caixa .p4{
+    background-color: #0b87b8;
+}
+
+.botao{
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #B8860B;
+    border: 2px #535353 solid;
+    border-radius: 5px;
+    margin: .125rem auto;
+}
+
+.botao:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.botao .titulo{
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.botao img{
+    width: 2rem;
+    margin: 5px;
+}
+
+.botao p{
+    padding: 5px;
+    text-align: justify;
+    margin: 0;
+}
