@@ -1,16 +1,23 @@
 /* RODAPÉ */
 .rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
     color: #FFFFFF;
-    width: auto;
-    height: auto;
-    background-color: #FF0000;
+    background-color: #696969;
     font-size: 1rem;
 }
-.rodape span, a{
-    color: #FFFFFF;
+
+.endereco{
     display: flex;
     align-items: center;
-    flex-direction: row;
-    text-decoration:none;
+    width: auto;
 }
 
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
