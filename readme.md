@@ -7,3 +7,4 @@
 - Api whatsapp
 
 # Link para acessar o site
+https://fabio-oliveira-dev.github.io/diego_simonin_advo/
