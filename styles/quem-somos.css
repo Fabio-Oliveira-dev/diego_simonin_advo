@@ -1,0 +1,15 @@
+/* Pagina quem somos*/
+.quem-somos{
+    margin-bottom: 20px;
+}
+
+.quem-somos>.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.0rem;
+}
+
+.quem-somos .quem-somos-caixa .quem-somos-paragrafo{
+    text-align: justify;
+    padding: 0 10px;
+}

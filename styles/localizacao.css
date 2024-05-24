@@ -1,0 +1,55 @@
+.localizacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.mapa .mapa-titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-titulo{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.conteudo-formulario>label{
+    font-weight: 500;
+}
+
+.conteudo-input{
+    outline: none;
+    width: 100%;
+}
+
+.btn-formulario{
+    width: 100%;
+    background-color: #526370;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-formulario[value]{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.btn-formulario[value]:hover{
+    opacity: 1;
+    letter-spacing: 0.08rem;
+}

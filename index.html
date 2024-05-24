@@ -4,107 +4,316 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adv Diego Simonin - Escritório</title>
+    <title>Diego Simonin - Escritório Online</title>
     
-    <link rel="icon" href="./public/assets/img/balanca.jpg" type="image/png">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Css-->
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/inicio.css"/>
+    <link rel="stylesheet" href="./styles/servicos.css"/>
+    <link rel="stylesheet" href="./styles/noticias.css"/>
+    <link rel="stylesheet" href="./styles/quem-somos.css"/>
+    <link rel="stylesheet" href="./styles/localizacao.css">
+    <link rel="stylesheet" href="./styles/contatos.css"/>
+    <link rel="stylesheet" href="./styles/media.css"/>
 
+    <!--icone-->
+    <link rel="shortcut icon" href="./components/img/balanca.png" type="image/x-icon">
+
+    <!--Fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;500;700;800&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./public/assets/css/global.css">
-    <link rel="stylesheet" href="./public/assets/css/redes.css">
-    <link rel="stylesheet" href="./public/assets/css/style.css">
-    <link rel="stylesheet" href="./public/assets/css/acordeon.css">
-    <link rel="stylesheet" href="./public/assets/css/rodape.css">
+    <!--Tags OG-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Diego Simonin - Escritório Online" />
+    <meta property="og:description" content="Escritório Online" />
+    <!-- <meta property="og:image" content="./components/img/balanca.png" /> -->
+    <meta property="og:site_name" content="DiegoSimoninAdv" />
 
 </head>
 <body>
-    <main class="main">
-        <!-- REDES SOCIAIS -->
-        <header class="caixa-redes">
-            <section class="redes">
-                <a href="https://www.instagram.com/diegosimonin/" target="_blank"><img src="./public/assets/img/instagram.png" alt="Instagram"></a>
-                
-                <a href="https://www.facebook.com/diego.simonin" target="_blank"><img src="./public/assets/img/facebook.png" alt="Facebook"></a>
+    
+    <!--Cabeçalho-->
+    <header class="cabecalho" id="inicio">
+        <!-- <img class="menu-principal-imagem" src="./components/img/logo.png" alt="logovagnergomescruz"> -->
+        
+        <nav class="menu">
+            <!-- <div class="menu-principal-logo">Vagner Gomes Cruz</div> -->
+            <a href="#inicio" id="inicio">Início</a>
+            
+            <a href="#servicos" id="servicos">Áreas de atuação</a>
+            
+            <a href="#quem-somos" id="quem-somos">Escritório</a>
+            
+            <a href="#noticias" id="noticias">Para Você</a>
+            
+            <a href="#contatos" id="contatos">Contatos</a>
+        </nav>
+    </header>
 
-                <a href="tel:21 976412833"><img src="./public/assets/img/whatsapp.png" alt="Whatsapp"></a>
-                
-                <a href="mailto:diegosimonin@gmail.com"><img src="./public/assets/img/email.png" alt="E-mail"></a>
+    <main class="conteudo-principal">
+        <!--Conteudo caixas pilares-->
+        <section class="caixas">
+            <section id="caixa1">
+                <h2 class="caixa-titulo">Experiência</h2>
+                <div class="caixa-paragrafo">
+                    <p class="caixa-paragrafo">
+                        "Escritório de advocacia dedicado a fornecer serviços jurídicos de alta qualidade e soluções eficazes para nossos clientes. Com experiência e comprometimento".
+                    </p>
+                </div>
             </section>
-        </header>
 
-        <!-- MENU -->
-        <header class="menu">
-            <div class="logo">
-                <h1>Diego <br>Simonin</h1>
-                <h2>Escritório de Advocacia</h2>
+            <section id="caixa2">
+                <h2 class="caixa-titulo">Filosofia</h2>
+                <div class="caixa-paragrafo">
+                    <p class="caixa-paragrafo">
+                        "Nossa filosofia é baseada na <strong>excelência</strong>, <strong>ética profissional</strong> e <strong>atendimento personalizado</strong>".
+                    </p>    
+                </div>
+            </section>
+
+            <section id="caixa1">
+                <h2 class="caixa-titulo">Excepcional</h2>
+                <div class="caixa-paragrafo">
+                    <p class="caixa-paragrafo">
+                        "Acreditamos que cada caso é único e merece uma abordagem personalizada, adaptada às necessidades específicas de nossos clientes."
+                    </p>
+                </div>
+            </section>
+
+            <section id="caixa2">
+                <h2 class="caixa-titulo">Confiança</h2>
+                <div class="caixa-paragrafo">
+                    <p class="caixa-paragrafo">
+                        "Valorizamos a confiança e a transparência em nossas relações, trabalhando em estreita colaboração com nossos clientes para entender seus objetivos e encontrar as melhores soluções legais".
+                    </p>
+                </div>
+            </section>
+        </section>
+    
+        <!--Conteudo escritorio online-->
+        <section class="escritorio-online">
+            <h2 class="titulo">Escritório Online</h2>
+            
+            <p class="paragrafo">Advogado especializado em Direito do Consumidor.</p>
+            
+            <p class="paragrafo">Defendendo seus direitos, promovendo aprimoramento do mercado e educando consumidores.</p>
+            
+            <p class="paragrafo">Agende sua consulta totalmente online e grátis pelo próprio site, whatsApp ou redes sociais podendo escolher o melhor dia e horério mais conveniente para você. Tire suas duvidas de maneira rápida sobre seus direitos dentro da área de atuação da minha especialidade.</p>
+        </section>
+
+        <!--Caixas noticias-->
+        <section class="noticias" id="noticias">
+            <section class="textos">
+                <h2 class="noticias-titulo">Notícias para você consumidor</h2>
+            
+                <p class="noticias-paragrafo">Saiba tudo sobre os seus direitos na área do consumidor em nossa seção de notícias de maneira rápida com pequenos artigos para desde ja tirar suas dúvidas sobre os seus direitos.
+                <br>
+                Foi lezado em alguns desses campos de consumo? Entre em contato pelo whatsapp ou pelas redes sociais que  irei te ajudar a resolver seu problema.
+                <br>
+                Abaixo tem o botão de whatsapp que você falará direto comigo.
+            </p>
+            </section>
+            
+            <section class="noticias-caixas">
+                <article class="noticias-caixa">
+                    <img src="./components/img/balanca.png" alt="cobrança-toi"/>
+                    
+                    <h3 class="noticias-caixa-titulo">Seus direito sobre cobranças indevidas de TOI</h3>
+
+
+                    <p class="noticias-caixa-paragrafo"> O TOI é quando avaliamos que existe uma falha entre a energia consumida no imóvel e o que foi registrado no relógio de energia (medidor), seja por responsabilidade do cliente ou erro no medidor.</p>
+
+                    <button class="btn">
+                        <img src="./components/img/whatsapp.png" alt="botão-whatsapp"/>
+
+                        <p>Saiba Mais</p>
+                    </button>
+                </article>
+
+                <article class="noticias-caixa">
+                    <img src="./components/img/balanca.png" alt="compra na internet"/>
+                    
+                    <h3 class="noticias-caixa-titulo">Seus direito sobre compras feita pela internet</h3>
+
+                    <p class="noticias-caixa-paragrafo">Direito de arrependimento de compra, devolução e troca, cumprimento da oferta, transparência na propaganda, atendimento eficiente, direito de acesso às informações da empresa,direito de acesso às informações do produto e segurança no pagamento.</p>
+
+                    <button class="btn">
+                        <img src="./components/img/whatsapp.png" alt="botão-whatsapp"/>
+
+                        <p>Saiba Mais</p>
+                    </button>
+                </article>
+
+                <article class="noticias-caixa">
+                    <img src="./components/img/balanca.png" alt="Loas"/>
+                    
+                    <h3 class="noticias-caixa-titulo">Seus direito sobre o Loas</h3>
+
+                    <p class="noticias-caixa-paragrafo">Garante um salário mínimo mensal às pessoas com deficiência e aos idosos com 65 anos ou mais que comprovem não possuir meios de prover a própria subsistência ou de tê-la provida por sua família.</p>
+
+                    <button class="btn">
+                        <img src="./components/img/whatsapp.png" alt="botão-whatsapp"/>
+
+                        <p>Saiba Mais</p>
+                    </button>
+                </article>
+
+                <article class="noticias-caixa">
+                    <img src="./components/img/balanca.png" alt="cobrança-toi"/>
+                    
+                    <h3 class="noticias-caixa-titulo">Faltou Luz ? Saiba o que fazer sobre os seus direitos</h3>
+
+                    <p class="noticias-caixa-paragrafo">Os consumidores têm até 5 anos, contados da data provável da ocorrência do dano elétrico no equipamento, para solicitar o ressarcimento à distribuidora que atende a sua região.</p>
+
+                    <button class="btn">
+                        <img src="./components/img/whatsapp.png" alt="botão-whatsapp"/>
+
+                        <p>Saiba Mais</p>
+                    </button>
+                </article>
+            </section>
+        </section>
+        
+        <!-- Conteudo Pagina quem somos-->
+        <section class="quem-somos" id="quem-somos">
+            <h2 class="titulo">Sobre o Escritório</h2>
+            
+            <section class="quem-somos-caixa">
+                <p class="quem-somos-paragrafo">"Somos um escritório de advocacia dedicado a fornecer serviços jurídicos de alta qualidade e soluções eficazes para nossos clientes.
+                
+                <br> Nossa filosofia é baseada na excelência, ética profissional e atendimento personalizado. Acreditamos que cada caso é único e merece uma abordagem personalizada, adaptada às necessidades específicas de nossos clientes.
+
+                <br> Com especialização em direito do consumidor, oferecemos serviços abrangentes dentro desse ramo do direito, defendendo o consumidor.
+                
+                <br> Se você precisa de um escritório de advocacia confiável e comprometido em proteger seus interesses legais, estamos prontos para ajudar."
+                </p>
+
+                <!-- <img src="./components/img/img3.jpg" alt="quemsomos"> -->
+            </section>
+        </section>
+
+        <!--Conteudo Pagina serviços-->
+        <h2 class="servicos-titulo-areas" id="servicos">Áreas de Atuação</h2>
+
+        <p class="servicos-subtitulo-areas">Nossos serviços são na área do direito do consumidor. Trabalhamos em diversar áreas do consumidor garantindo os seus direitos ao contratar algum tipo de serviço ou em compras fisicas ou online.
+        <br>
+        Quer saber se você tem direito? Entre em contato por nossos meios de comunicação que tiraremos todas as suas dúvidas.
+        </p>
+        <section class="servicos-caixas">
+            <section class="caixa">
+                <img src="./components/img/civil.jpg" alt=""/>
+                
+                <h2 class="servicos-titulo">Loas</h2>
+                
+                <p class="servicos-paragrafo">
+                    Nossa especialidade se da na área de contratos , inventário, relações de consumo , atuamos na esfera administrativa e judicial, oferecendo ao cliente sempre a melhor opção para o caso concreto.
+                </p>
+            </section >
+    
+            <section class="caixa">
+                <img src="./components/img/penal.jpg" alt=""/>
+
+                <h2 class="servicos-titulo">Light</h2>
+                
+                <p class="servicos-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore quam quo iure a alias odit officiis tenetur, autem vero numquam pariatur explicabo recusandae adipisci debitis dolor cum aperiam quasi.
+                </p>
+            </section>
+    
+            <section class="caixa">
+                <img src="./components/img/previdenciario.jpg" alt=""/>
+                
+                <h2 class="servicos-titulo">Aguas do Rio</h2>
+                
+                <p class="servicos-paragrafo">
+                    Nossa especialidade se da na área de contratos , inventário, relações de consumo , atuamos na esfera administrativa e judicial, oferecendo ao cliente sempre a melhor opção para o caso concreto.
+                </p>
+            </section>
+    
+            <section class="caixa">
+                <img src="./components/img/trabalho.jpg" alt=""/>
+                
+                <h2 class="servicos-titulo">Compras Online</h2>
+                
+                <p class="servicos-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis labore quam quo iure a alias odit officiis tenetur, autem vero numquam pariatur explicabo recusandae adipisci debitis dolor cum aperiam quasi.
+                </p>
+            </section>
+        </section>
+
+        <!--Conteudo pagina localização e formulario-->
+        <section class="localizacao">
+            <div class="mapa">
+                <h2 class="mapa-titulo">Como chegar</h2>
+                <!--Mapa-->
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.0393292225726!2d-43.50272500158238!3d-22.76392167501754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x995de9fccd6c81%3A0x5063464c131aeda4!2sR.%20S%C3%A9rgio%20Sender%2C%2015%20-%20Jardim%20Nova%20Era%2C%20Nova%20Igua%C3%A7u%20-%20RJ%2C%2026266-170!5e0!3m2!1spt-BR!2sbr!4v1716404108088!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             
-            <nav class="navegacao">
-                <ul class="lista">
-                    <a href="#"><li>Início</li></a>
-                    <a href="#"><li>Sobre</li></a>
-                    <a href="#"><li>Especialidades</li></a>
-                    <a href="#"><li>Contatos</li></a>
-                </ul>
-            </nav>
-        </header>
-    
-        
-        <!-- PILARES DO DIREITO ACORDEON-->
-        <span class="sobre-caixa">
-            <p class="p1">" Experiência - Respeito - Resultados "</p>
-            <!-- <p class="p2">Advocacia especializada no direito do consumidor</p>
-            <p class="p3">Na Defesa dos interesses dos nossos clientes</p> -->
-            <p class="p4">" Pilares Morais do direito que respeitamos "</p>
-        </span>
-
-        <button class="botao">
-            <details class="pilares">
-                <summary class="titulo">Igualdade</summary>
-                <img src="./public/assets/img/pilar.png" alt="Pilar">
-                <p>É um princípio fundamental que sugere que todas as pessoas devem ser tratadas com igualdade perante a lei</p>
-            </details>
-        </button>
-
-        <button class="botao open">
-            <details class="pilares">
-                <summary class="titulo">Integridade</summary>
-                <img src="./public/assets/img/pilar.png" alt="pilar">
-                <p>É um valor importante na prática jurídica. Nós Advogados profissionais do direito devemos agir com honestidade, transparência e ética com nossos clientes</p>
-            </details>
-        </button>
-
-        <button class="botao open">
-            <details class="pilares">
-                <summary class="titulo">Prudência</summary>
-                <img src="./public/assets/img/pilar.png" alt="pilar">
-                <p>Refere-se à tomada de decisões informadas e cuidadosas, considerando todas as implicações e consequências</p>
-            </details>
-        </button>
-        
-        <button class="botao open">
-            <details class="pilares">
-                <summary class="titulo">Ética Profissional</summary>
-                <img src="./public/assets/img/pilar.png" alt="pilar">
-                <p>Profissionais do direito devem aderir a códigos de ética específicos que regem sua conduta profissional. Isso inclui obrigações de confidencialidade, lealdade ao cliente e comportamento ético em todas as interações profissionais</p>
-            </details>
-        </button>
-
-
-        <!-- RODAPÉ -->
-        <footer class="rodape">
-            <section class="endereco">
-                <div>Endereço - Rua Sergio Sender, nº 15 Loja - Jardim Nova Era - Nova Iguaçu - RJ</div>
-            </section>
+            <form class="formulario" action="#" method="POST">
+                <h2 class="formulario-titulo">Deixa sua mensagem aqui</h2>
+                <!-- <label for="areajuridica">Área Jurídica</label>
+                <input type="text" class="conteudo-input" name="areaJuridica" placeholder="Área Jurídica" required> -->
             
-            <span>2023 - Desenvolvido por <a href="https://www.linkedin.com/in/devfabiooliveira/"> Fábio Oliveira</a></span>
+                <label for="nome">Nome</label>
+                <input type="text" class="conteudo-input" name="nome" placeholder="Nome Sobrenome" required>
+            
+                <label for="email">E-mail</label>
+                <input type="email" class="conteudo-input" name="email" placeholder="seuemail@gmail.com" required>
+            
+                <label for="telefone">Telefone | Celular</label>
+                <input type="tel" class="conteudo-input" name="telefone" placeholder="(00) 91234-5678" required>
+            
+                <label for="mensagem">Mensagem</label>
+                <textarea class="conteudo-input" name="mensagem" placeholder="Digite sua mensagem aqui" rows="5" required></textarea>
+            
+                <input class="btn-formulario" type="submit" value="Enviar">
+              </form>
+        </section>
+
+        <!--Rodapé-->
+        <footer class="rodape" id="contatos">
+            <section class="endereco">
+                <section class="endereco-caixa">
+                    <p>Não quer um atentimento online? <br> Agende uma visita presencial pelo whatsapp marcando o melhor dia e horário para seu atendimento.</p>
+
+                    <p class="endereco-titulo">Endereço</p>
+                    
+                    <p class="endereco-paragrafo">Rua Sergio Sender, nº 15 Loja - Jardim Nova Era - Nova Iguaçu - Cep 26266-170 - RJ</p>
+                </section>
+                
+                <section class="horas" id="horas">
+                    <p>De Terça à Sexta</p>
+                    <p>De 09:00 hrs às 18:00 hrs</p>
+                </section>
+
+                <section class="contatos-caixa">
+                    <p class="contato-titulo">Contatos</p>
+                    
+                    <p class="contato-paragrafo">Telefone Escritório: 21 97641-2833</p>
+                    
+                    <p class="contato-paragrafo">Email Escritório: diegosimonin@gmail.com</p>
+                    
+                    <section class="registro">
+                        <p class="registro-paragrafo">Advogado OAB/RJ: 203.515</p>
+                    </section>
+                </section>
+
+                <section class="redes" id="redes">
+                    <a class="redes-ancora" href="https://www.facebook.com/DiegoSimoninAdv"><img src="./components/img/facebook.png" alt="facebook"></a>
+                    
+                    <a class="redes-ancora" href="https://www.instagram.com/diegosimonin/"><img src="./components/img/instagram.png" alt="instagram"></a>
+                </section>
+            </section>
+
+            <section class="criador-caixa">
+                <p class="criador-paragrafo">Desenvolvido por <a href="https://www.instagram.com/fabio.oliveira92/">Fábio Oliveira</a></p>
+            </section>
         </footer>
     </main>
     
-    <script src="./public/assets/js/acordeon.js"></script>
 </body>
 </html>

@@ -1,10 +1,9 @@
-# Website para o escritório de advocacia especializada
+# Site Diego Simonin - Advocacia especializada em direito do consumidor
 
-# Tecnologias usadas para o frontend
-- HTML5 e CSS3;
+## Tecnologias usadas para a criação do site
+- HTML5
+- CSS
+- Javascript
+- Api whatsapp
 
-# Tecnologia usada para o dinamismo
-- JavaScript.
-
-# Link de acesso
-- https://fabio-oliveira-dev.github.io/diego_simonin_advo/
+# Link para acessar o site

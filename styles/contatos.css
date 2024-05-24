@@ -1,0 +1,86 @@
+/*Pagina rodape*/
+.rodape .endereco{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    color: #ffffff;
+    background-color: #526370;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.endereco-caixa{
+    width: calc(33%);
+}
+
+.endereco-caixa>p{
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 17px;
+}
+
+.endereco-titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.endereco-titulo::before{
+    content: url(../components/img/localizacao.png);
+    font-size: 2px;
+    margin-right: 10px;
+}
+
+.horas{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #ff0000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#horas{
+    display: flex;
+    align-self: center;
+    font-weight: 500;
+}
+
+.contatos-caixa{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contato-titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.registro-paragrafo{
+    font-weight: 700;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: right;
+}
+
+.redes .redes-ancora>img{
+    width: 40px;
+}
+
+.criador-paragrafo{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.criador-paragrafo a{
+    color: #000000;
+}
+
+.criador-paragrafo a:hover{
+    color: #526370;
+}

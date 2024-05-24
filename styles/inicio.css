@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: #526370;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.menu>a{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.menu>a:hover{
+    color: #213248;
+}
+
+/*Conteudo principal*/
+/* caixas pilares */
+.caixas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin:10px 0;
+    width: 100%;
+    height: 220px;
+}
+
+.caixas>section:hover{
+    box-shadow: #000000 0px 0px 5px 3px;
+}
+
+.caixas section{
+    color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.caixa-titulo{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.caixa-paragrafo>p{
+    text-align: justify;
+    min-height: 60%;
+}
+
+#caixa1{
+    background-color: #2b2f3b;
+}
+
+#caixa2{
+    background-color: #526370;
+}
+
+/* Conteudo escritorio online */
+.escritorio-online{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.escritorio-online>p{
+    text-align: justify;
+    color: #000000; 
+}
